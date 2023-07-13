@@ -13,11 +13,11 @@ public class Banco {
         this.nome = nome;
     }
 
-    protected List<Conta> getContas() {
+    public List<Conta> getContas() {
         return contas;
     }
 
-    protected void setContas(List<Conta> contas) {
+    public void setContas(List<Conta> contas) {
         this.contas = contas;
     }
 
